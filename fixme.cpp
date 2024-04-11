@@ -1,4 +1,4 @@
-#include "SessionAgregator.h"
+	#include "SessionAgregator.h"
 #include "../settings/Settings.h"
 #include "../db/DbConnection.h"
 #include <boost/uuid/uuid_generators.hpp>
@@ -8,7 +8,6 @@
 #include "../utils/constants/FieldCnst.h"
 #include "../utils/constants/CollectionCnst.h"
 #include "../utils/constants/UsersSettingsCnst.h"
-#Skibididopdop
 using bsoncxx::builder::basic::kvp;
 
 std::map<std::string, Session> SessionAgregator::currentConnections;
