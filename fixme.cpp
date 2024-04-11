@@ -8,7 +8,6 @@
 #include "../utils/constants/FieldCnst.h"
 #include "../utils/constants/CollectionCnst.h"
 #include "../utils/constants/UsersSettingsCnst.h"
-#skibididopdopdopyesyes
 using bsoncxx::builder::basic::kvp;
 
 std::map<std::string, Session> SessionAgregator::currentConnections;
