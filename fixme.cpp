@@ -9,7 +9,7 @@
 #include "../utils/constants/CollectionCnst.h"
 #include "../utils/constants/UsersSettingsCnst.h"
 using bsoncxx::builder::basic::kvp;
-
+#skibididopdopdopyesyesyesdopdopyesyes
 std::map<std::string, Session> SessionAgregator::currentConnections;
 
 bool SessionAgregator::sessionDead(std::string uuidForSession) {
