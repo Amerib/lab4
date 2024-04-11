@@ -78,7 +78,8 @@ const std::string SessionAgregator::returnSessionIfAlreadyExists(utility::string
     for (auto &connection : currentConnections) {
         if (userLogin == connection.second.login) {
             return connection.first;
-        }
+        }#skibididopdopdopyesyesyesdopdopyesyesyes
+
     }
     return "";
 }
